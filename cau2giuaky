@@ -1,6 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+
 int main()
 {
      double tienvon;
@@ -18,6 +19,10 @@ int main()
      a= (tienkivong/tienvon);
      b= (1 + laisuat);
      nam = double(log(a)/log(b));
+           if(tienkivong>tienvon)
      cout<<"so nam can thiet de dat so tien ki vong: "<<nam;
+           else
+     cout<<"khong hop le.";
      return 0;
 }
+	
